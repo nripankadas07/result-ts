@@ -1,0 +1,45 @@
+{
+  "name": "result-ts",
+  "version": "0.1.0",
+  "description": "Type-safe Result<T, E> for TypeScript — Ok/Err with map, flatMap, unwrap, all/any, sync/async tryCatch, fromPromise, fromNullable.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "result",
+    "either",
+    "ok",
+    "err",
+    "error-handling",
+    "monad",
+    "typed",
+    "typescript",
+    "functional"
+  ],
+  "author": "Nripanka Das",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nripankadas07/result-ts"
+  }
+}

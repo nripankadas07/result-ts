@@ -25,7 +25,7 @@ plus sync and async exception capture.
 ## Install
 
 ```bash
-npm install result-ts
+npm install && npm run build
 ```
 
 ## Usage
